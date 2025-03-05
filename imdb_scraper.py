@@ -65,7 +65,7 @@ def main(num_genres_to_display=None, selected_genre=None, selected_movie=None):
         num_genres_to_display = input('How many genres are you interested in? (1 - 50): ')
         num_genres_to_display = int(num_genres_to_display)
 
-    if (num_genres_to_display > 50 or num_genres_to_display < 1):
+    if not (1 <= num_genres_to_display <= 50):
         print('Please pick a number in the range 1 - 50!')
         exit(2)
 

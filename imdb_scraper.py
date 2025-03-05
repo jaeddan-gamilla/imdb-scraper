@@ -47,7 +47,7 @@ def direct_movie_url(genre_url, selected_movie, movies):
 
     num_movies = min(len(movies), len(movie_link_extensions))
 
-    for i in range(num_movies):  # Avoid IndexError
+    for i in range(num_movies):
         link_map[movies[i]] = BASE_URL + movie_link_extensions[i].get('href')
 
     if selected_movie in link_map:

@@ -35,7 +35,9 @@ After selecting a genre, the top 10 trending movies in that category are shown. 
 
 \
 Lastly, you are given the prompt:
+\
 `Type in a movie of your choice to receive the direct URL!:`
+\
 Here, you must input a movie title as it is provided in the terminal. Typos will result in an exit of the code.
 
 Once you input a movie title, you are given the exact IMBd URL link to the selected movie.

@@ -1,2 +1,2 @@
-# imdb-scraper
-IMDB.com scraper to easily recommend movies
+# IMDb-scraper
+IMDb.com scraper to easily recommend movies

@@ -2,6 +2,7 @@
 IMDb.com scraper to easily recommend movies
 
 # Installation
+You will need to install BeautifulSoup to run this code.
 ~~~
 pip install bs4
 ~~~
@@ -44,6 +45,7 @@ Once you input a movie title, you are given the exact IMBd URL link to the movie
 As you can see above, I've provided what page the URL link directs me to if I chose the Superman movie in the Superhero genre.
 
 # Testing
+Upon a look through my `imdb_scraper.py` code, you will see there are three times where `exit(2)` occurs. Once when a number is given out
 
 
 

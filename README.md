@@ -1,5 +1,5 @@
 # IMDb-scraper
-IMDb.com scraper to easily recommend movies
+A Python-based web scraper that uses BeautifulSoup to extract trending movies from IMDb based on user-selected genres
 
 # Installation
 You will need to install BeautifulSoup to run this code.
